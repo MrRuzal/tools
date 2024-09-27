@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
-        'Pillow',
+        'Pillow==9.3.0',
         'moviepy',
     ],
     description='A converter for images, videos, audio and text.',
