@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='converters',
+    name='aitv_converters',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
