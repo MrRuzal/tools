@@ -26,4 +26,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     keywords='tools converter geometry image audio video text',
+    extras_require={
+        'test': ['pytest>=7.4.2'],
+    },
 )
